@@ -21,3 +21,8 @@ Challenge from Brad Traversy & Florin Pop on Udemy '50 Projects in 50 Days'
 
 #### Takeaways from the instructor
 
+3. JavaScript
+- used window as target for eventlistener.. body worked as well, but window seems official(?)
+- .key for space is blank, add 'space' manually: ${e.key === ' ' ? 'space' : e.key} <- here ? means then, : means else
+- .keyCode is deprecated.
+
